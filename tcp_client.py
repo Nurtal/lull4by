@@ -1,18 +1,1 @@
-import socket
-
-target_host = "www.google.com"
-target_port = 80
-
-# create a socket object
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-# connect the client
-client.connect((target_host,target_port))
-
-# send some data
-client.send("GET / HTTP/1.1\r\nHost: google.com\r\n\r\n")
-
-# receive some data
-response = client.recv(4096)
-
-print response
+¹ÖÓå×æ”ÃØÆáÊæ~ZİÄèÌ×è¯ÑÒéÙ’±p‹ÚíÜ Û¿ØÊâÊ ×¿Ö…€ÙÓæ·Î×ÕÕáæÄ‰ –¢~ZŒƒÙ××ÕÄÎƒ×…åã³ÔÈê…áÖºÎÆêoÕà¹ÎÑê…¯”ÃØÆáÊæ¢ÃØÆáÊæœÃØÆáÊæ¢‘¯Â¿³·È|‰ÖåÈİÙÄ—¶Å¨½Ó£½µ»¦¿Zs†–Èáâ¾ÎÆê…æÜµ‰ÆâÎ×âÄsÆâÎ×âÄ—ÆåÓàÙ³İ‹ÙÓæ·Î×ÕÍáçÄ•×××ÙÙÄÈÓå×æysm™…åÙ¾ÍƒéÔßÙpÍÄêÆ|×¼ÒÈäÙ çµ×Ç‡¹¹¤‰’–­ÆÈ ˜”¤–Îæ¬×«åØæ®pĞÒåÌŞÙ~ÌÒãÁäĞ¾ÅÕÒÓ”Zs†–×××µÒÙÛ…åã½ÎƒÚÆæÕZÛÈéÕáâÃÎƒ³…Õà¹ÎÑê“äÙ³ß‹ª•«ªysmæ×ÛâÄ‰ÕÛØâã¾ÜÈ
